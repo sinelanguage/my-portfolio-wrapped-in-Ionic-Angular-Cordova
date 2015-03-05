@@ -1,0 +1,140 @@
+@font-face {
+	font-family:'HelveticaNeueLTStd-Bd';
+	src: url('HelveticaNeueLTStd-Bd_gdi.eot');
+	src: url('HelveticaNeueLTStd-Bd_gdi.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeueLTStd-Bd_gdi.woff') format('woff'),
+		url('HelveticaNeueLTStd-Bd_gdi.ttf') format('truetype'),
+		url('HelveticaNeueLTStd-Bd_gdi.otf') format('opentype'),
+		url('HelveticaNeueLTStd-Bd_gdi.svg#HelveticaNeueLTStd-Bd') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'MetaSerifTf-Book';
+	src: url('MetaSerifTf-Book_gdi.eot');
+	src: url('MetaSerifTf-Book_gdi.eot?#iefix') format('embedded-opentype'),
+		url('MetaSerifTf-Book_gdi.woff') format('woff'),
+		url('MetaSerifTf-Book_gdi.ttf') format('truetype'),
+		url('MetaSerifTf-Book_gdi.otf') format('opentype'),
+		url('MetaSerifTf-Book_gdi.svg#MetaSerifTf-Book') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-00FE;
+}
+
+.blu-grad-bg {
+	background-color: rgba(0, 76, 152, 1.0);
+    background: -o-linear-gradient(-89deg, #004C98 0%, #2387EE 99%);
+    background: -moz-linear-gradient(-89deg, #004C98 0%, #2387EE 99%);
+    background: -ms-linear-gradient(-89deg, #004C98 0%, #2387EE 99%);
+    background: linear-gradient(-179deg, #004C98 0%, #2387EE 99%);
+}
+
+.white-txt {
+	color: white;
+}
+
+.name-desc {
+	font-family: HelveticaNeueLTStd-Bd;
+	font-size: 1.6em;
+	color: rgb(155, 155, 155);
+	line-height: 1.4em;
+}
+
+.white-desc, .white-heading {
+	color: white;
+	font-family: HelveticaNeueLTStd-Bd;
+}
+
+.main-intro {
+	font-family: MetaSerifTf-Book;
+	font-size: 1.2em;
+	/*color: rgb(241, 243, 242);*/
+	color: white;
+	line-height: 1.5em;
+}
+
+p {
+	font-family: MetaSerifTf-Book;
+	font-size: 1.0em;
+	/* color: rgb(241, 243, 242); */
+	color: rgb(255, 255, 255);
+	line-height: 1.3em;
+}
+
+
+.transparent-bg .tab-nav.tabs {
+	background-color: transparent;
+}
+
+.padding-30 {
+	padding: 30px;
+}
+
+hr {
+
+	height: 0;
+	border: none;
+	margin: 2.5em 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.43);
+
+}
+
+[nav-bar-transition="ios"] [nav-bar="active"] .bar, [nav-bar-transition="ios"] [nav-bar="entering"] .bar,
+.blue-top-bar {
+	background-color: rgb(3, 80, 158);
+	/*border-bottom: 1px solid rgba(255, 255, 255, 0.17);*/
+	border-width: 0px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active,
+ion-tabs.tabs-color-active-positive .tab-item,
+ion-tabs.tab-item.tab-item-active, .tab-item.active, .tab-item.activated,
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
+	color: white;
+}
+
+/*.tabs-striped .tab-item.tab-item-active,
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated,*/
+.tabs-striped .tab-item.tab-item-active, .tabs-striped .tab-item.active, .tabs-striped .tab-item.activated {
+	border-color: white;
+	color: white;
+}
+
+.img-row, .img-col {
+	padding: 0;
+}
+
+.img-col::after {
+	position: absolute;
+	width: 30.6%;
+	height: 7.1%;
+	content: "hello";
+	margin-left: -32%;
+	margin-top: 1.5%;
+	background-color: rgba(0, 0, 0, 0.25);
+	color: rgb(255, 255, 255);
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	/*position: absolute;
+	width: 32.6%;
+	height: 8%;
+	content: "hello";
+	margin-left: -33%;
+	margin-top: 0.4%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: rgb(255, 255, 255);*/
+}
+
+.grid-img {
+	height: auto;
+	max-width: 100%;
+}
